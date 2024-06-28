@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model Training Results</title>
+    <style>
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            font-family: Arial, sans-serif;
+        }
+        .alert {
+            padding: 20px;
+            background-color: #f44336; /* Red */
+            color: white;
+            margin-bottom: 15px;
+        }
+        .info {
+            padding: 20px;
+            background-color: #e7f3fe;
+            color: #31708f;
+            margin-bottom: 15px;
+        }
+        .data-block {
+            background-color: #f7f7f7;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    {% if error %}
+        <div class="alert">
+            <strong>Error!</strong> {{ error }}
+        </div>
+    {% else %}
+        <h1>Model Training Results</h1>
+        <div class="info">
+            <p>Model training was completed successfully. Below are the results:</p>
+        </div>
+        <div class="data-block">
+            <strong>Model:</strong> {{ model }}
+        </div>
+        <div class="data-block">
+            <strong>Mean Squared Error (MSE):</strong> {{ mse }}
+        </div>
+        <div class="data-block">
+            <strong>Mean Absolute Error (MAE):</strong> {{ mae }}
+        </div>
+        <div class="data-block">
+            <strong>Root Mean Squared Error (RMSE):</strong> {{ rmse }}
+        </div>
+    {% endif %}
+</div>
+</body>
+</html>

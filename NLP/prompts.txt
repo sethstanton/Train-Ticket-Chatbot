@@ -1,0 +1,41 @@
+hello
+I want to book a train
+one way
+I want to go to London on sunday at 5pm
+bye
+
+hello
+I want to book a train
+return
+I want to go to London on sunday at 5pm and return on monday at 4pm
+bye
+
+hello
+I want to book a train
+return
+I want to go to London
+on sunday at 4pm
+coming back on tuesday at 7pm
+bye
+
+
+hello
+I want to book a train
+return
+
+
+coming back, returning, return, departing, leaving
+
+hello 
+I want to book a train
+open return
+I want to go to London on sunday and return on monday
+bye
+
+hello
+
+I want to book a train
+open ticket
+I want to go to London on sunday
+bye
+

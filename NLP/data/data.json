@@ -1,0 +1,21 @@
+{
+    "chosen_origin_str": "Norwich",
+    "chosen_dest_str": null,
+    "arrive_date_str": null,
+    "arrive_time_str": null,
+    "leave_date_str": null,
+    "leave_time_str": null,
+    "ticket_type": null,
+    "leave_arrive": null,
+    "origin_code": "NRW",
+    "dest_code": null,
+    "chosen_intention": null,
+    "flag_loc": 0,
+    "station_selector": false,
+    "station1": null,
+    "station2": null,
+    "station3": null,
+    "station4": null,
+    "station5": null,
+    "selected": null
+}

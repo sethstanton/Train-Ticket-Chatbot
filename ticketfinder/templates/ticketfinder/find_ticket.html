@@ -1,0 +1,16 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Train Ticket Finder</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="{% static 'ticketfinder/ajax_requests.js' %}"></script>
+    <script src="{% static 'ticketfinder/page_events.js'}"></script>
+</head>
+<body>
+
+<button id="find-ticket">Find Cheapest Ticket</button>
+<div id="ticket-info"></div>
+
+</body>
+</html>

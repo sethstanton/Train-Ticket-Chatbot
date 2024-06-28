@@ -1,0 +1,6 @@
+to do list:
+
+ask for origin ( at end as to not confuse my NLP)
+only allow specific destinations to search for
+
+

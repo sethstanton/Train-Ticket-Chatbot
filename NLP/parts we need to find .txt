@@ -1,0 +1,23 @@
+parts we need to find 
+
+- intro
+- where do you want to go (location)
+- when do you want to go (time and date)
+- trip type (one way, round etc)
+- cost eval
+- exit
+
+
+simplest
+
+hello
+I want to go on a train journey
+I would like to cambridge
+I would like to go on sunday at 2 pm
+The trip will be one way
+thank you
+
+most advance
+
+I want to go on a one way train journey to cambridge at 2pm on sunday thanks
+

@@ -1,0 +1,21 @@
+{
+    "chosen_origin_str": "Norwich",
+    "chosen_dest_str": "CAMBRIDGE",
+    "arrive_date_str": "2024-06-15",
+    "arrive_time_str": "19:00",
+    "leave_date_str": null,
+    "leave_time_str": null,
+    "ticket_type": "one way",
+    "leave_arrive": "leave",
+    "origin_code": "NRW",
+    "dest_code": "CBG",
+    "chosen_intention": "book",
+    "flag_loc": 0,
+    "station_selector": false,
+    "station1": null,
+    "station2": null,
+    "station3": null,
+    "station4": null,
+    "station5": null,
+    "selected": "1"
+}
